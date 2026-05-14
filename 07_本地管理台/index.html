@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>公司游戏研发 AI 全链路工作台</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Codex AI Workbench</p>
+      <h1>公司游戏研发 AI 全链路工作台</h1>
+    </div>
+    <div class="status-strip" aria-label="工作台状态">
+      <span><strong>18</strong> 岗位智能体</span>
+      <span><strong>3</strong> 训练数据区</span>
+      <span><strong>21</strong> Git worktree</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="control-band">
+      <div class="control-copy">
+        <h2>总控入口</h2>
+        <p>当前页面用于查看本地分支、worktree、配置文件和 Demo 基准材料。Codex 窗口仍需手动打开对应 worktree 目录。</p>
+      </div>
+      <div class="quick-links">
+        <a href="../00_执行中枢/Codex子项目配置规划.md">子项目配置规划</a>
+        <a href="../00_执行中枢/本地工作树映射表.md">工作树映射表</a>
+        <a href="../04_Demo基准测试/Demo任务书.md">Demo 任务书</a>
+        <a href="../05_蒸馏SOP/半月蒸馏SOP.md">蒸馏 SOP</a>
+      </div>
+    </section>
+
+    <section class="grid-shell">
+      <div class="section-heading">
+        <h2>岗位智能体</h2>
+        <p>按链路顺序配置。打开配置文件复制系统提示词，打开 worktree 作为对应 Codex 项目工作目录。</p>
+      </div>
+      <div id="agentGrid" class="agent-grid"></div>
+    </section>
+
+    <section class="grid-shell">
+      <div class="section-heading">
+        <h2>训练数据区</h2>
+        <p>成员 A/B/C 在对应训练窗口沉淀真实工作对话，半月蒸馏时只使用筛选后的高质量数据。</p>
+      </div>
+      <div id="trainingGrid" class="training-grid"></div>
+    </section>
+
+    <section class="workflow">
+      <div class="section-heading">
+        <h2>标准流转</h2>
+        <p>客户需求进入后，先生成立项书，再由项目经理拆任务，各岗位产出后回到项目经理审查。</p>
+      </div>
+      <ol>
+        <li>客户需求智能体生成立项书和岗位触发指令。</li>
+        <li>AI 项目经理制定任务顺序、风险和人工确认点。</li>
+        <li>策划、美术、程序、测试、项目管理分工产出。</li>
+        <li>输出进入 Demo 基准或数字资产库，蒸馏数据单独归档。</li>
+      </ol>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
