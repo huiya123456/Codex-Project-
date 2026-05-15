@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>水果777 Demo V1</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="machine" aria-label="水果777 Slot Demo">
+    <section class="jackpot-panel" aria-label="奖池">
+      <div class="gem gem-left">◆</div>
+      <div class="gem gem-right">◆</div>
+      <div class="jackpot grand" data-tier="grand">
+        <span>GRAND</span>
+        <strong id="grandValue">80,000</strong>
+      </div>
+      <div class="jackpot-row">
+        <div class="jackpot major" data-tier="major">
+          <span>MAJOR</span>
+          <strong id="majorValue">20,000</strong>
+        </div>
+        <div class="jackpot mini" data-tier="mini">
+          <span>MINI</span>
+          <strong id="miniValue">8,000</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="citrus-wheel" aria-hidden="true">
+      <div class="wheel-core"></div>
+    </section>
+
+    <section class="stats-bar" aria-label="状态">
+      <div>
+        <span>余额</span>
+        <strong id="creditsValue">1,000</strong>
+      </div>
+      <div>
+        <span>下注</span>
+        <strong id="betValue">10</strong>
+      </div>
+      <div>
+        <span>上次赢</span>
+        <strong id="lastWinValue">0</strong>
+      </div>
+    </section>
+
+    <section class="cabinet">
+      <div class="juice-pipe pipe-left" aria-hidden="true"></div>
+      <div class="juice-pipe pipe-right" aria-hidden="true"></div>
+
+      <div class="reel-window">
+        <div class="payline payline-mid"></div>
+        <div id="reels" class="reels" aria-live="polite"></div>
+        <div id="winToast" class="win-toast" role="status"></div>
+      </div>
+    </section>
+
+    <section class="message-strip">
+      <p id="messageText">点击 SPIN，启动果汁转盘。</p>
+      <p id="freeText">Free Spins: 0</p>
+    </section>
+
+    <section class="controls" aria-label="控制">
+      <button id="autoButton" class="round-button lemon" type="button">
+        <span>AUTO</span>
+      </button>
+      <div class="spin-cluster">
+        <button id="betDownButton" class="step-button" type="button" aria-label="减少下注">−</button>
+        <button id="spinButton" class="spin-button" type="button">
+          <span>SPIN</span>
+        </button>
+        <button id="betUpButton" class="step-button" type="button" aria-label="增加下注">+</button>
+      </div>
+      <button id="takeButton" class="round-button lemon" type="button">
+        <span>TAKE</span>
+      </button>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

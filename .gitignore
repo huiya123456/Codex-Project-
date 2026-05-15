@@ -1,0 +1,18 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+
+# Local runtime/config files that should not be shared
+.env
+.env.*
+local.config.*
+
+# Dependency/build caches if future tooling is added
+node_modules/
+dist/
+build/
+.cache/
+

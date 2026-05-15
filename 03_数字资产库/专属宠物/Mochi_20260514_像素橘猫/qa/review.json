@@ -1,0 +1,962 @@
+{
+  "ok": true,
+  "frames_root": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames",
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26263,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 144
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25068,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 205
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25874,
+          "bbox": [
+            9,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25874,
+          "bbox": [
+            9,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 152
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25714,
+          "bbox": [
+            9,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 137
+        },
+        {
+          "index": 5,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26090,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 139
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23572,
+          "bbox": [
+            5,
+            5,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 403
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21095,
+          "bbox": [
+            10,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 342
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21423,
+          "bbox": [
+            8,
+            5,
+            184,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 357
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22348,
+          "bbox": [
+            7,
+            5,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 383
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23634,
+          "bbox": [
+            11,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 411
+        },
+        {
+          "index": 5,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22724,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 367
+        },
+        {
+          "index": 6,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21205,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 363
+        },
+        {
+          "index": 7,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23219,
+          "bbox": [
+            7,
+            5,
+            184,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 394
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22491,
+          "bbox": [
+            5,
+            6,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 343
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23062,
+          "bbox": [
+            5,
+            5,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 394
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22736,
+          "bbox": [
+            7,
+            5,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 393
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21777,
+          "bbox": [
+            5,
+            7,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 390
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21962,
+          "bbox": [
+            7,
+            5,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 377
+        },
+        {
+          "index": 5,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21916,
+          "bbox": [
+            8,
+            5,
+            184,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 393
+        },
+        {
+          "index": 6,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23012,
+          "bbox": [
+            5,
+            5,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 345
+        },
+        {
+          "index": 7,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22335,
+          "bbox": [
+            5,
+            7,
+            187,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 364
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25606,
+          "bbox": [
+            11,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25019,
+          "bbox": [
+            10,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 207
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23836,
+          "bbox": [
+            5,
+            9,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 168
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 24866,
+          "bbox": [
+            13,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 137
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17449,
+          "bbox": [
+            5,
+            33,
+            187,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 183
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20620,
+          "bbox": [
+            5,
+            19,
+            187,
+            189
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 251
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 24159,
+          "bbox": [
+            5,
+            7,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 328
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20285,
+          "bbox": [
+            5,
+            20,
+            187,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 246
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18543,
+          "bbox": [
+            5,
+            29,
+            187,
+            179
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 258
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 27774,
+          "bbox": [
+            7,
+            5,
+            184,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 285
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26260,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 306
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21112,
+          "bbox": [
+            5,
+            25,
+            187,
+            183
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 179
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19682,
+          "bbox": [
+            5,
+            30,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 196
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26792,
+          "bbox": [
+            5,
+            12,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 265
+        },
+        {
+          "index": 5,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26834,
+          "bbox": [
+            5,
+            11,
+            187,
+            197
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 245
+        },
+        {
+          "index": 6,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20752,
+          "bbox": [
+            5,
+            25,
+            187,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 224
+        },
+        {
+          "index": 7,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 28208,
+          "bbox": [
+            7,
+            5,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 291
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25342,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 175
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 24037,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 214
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25087,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 214
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26613,
+          "bbox": [
+            13,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 213
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22964,
+          "bbox": [
+            18,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 217
+        },
+        {
+          "index": 5,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25040,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 206
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26548,
+          "bbox": [
+            7,
+            5,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25462,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 246
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26482,
+          "bbox": [
+            5,
+            7,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 232
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 27113,
+          "bbox": [
+            5,
+            5,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 273
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26243,
+          "bbox": [
+            5,
+            5,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 200
+        },
+        {
+          "index": 5,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26149,
+          "bbox": [
+            7,
+            5,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 202
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 24624,
+          "bbox": [
+            15,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 228
+        },
+        {
+          "index": 1,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25994,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 184
+        },
+        {
+          "index": 2,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26220,
+          "bbox": [
+            9,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 228
+        },
+        {
+          "index": 3,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25048,
+          "bbox": [
+            10,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 230
+        },
+        {
+          "index": 4,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25821,
+          "bbox": [
+            8,
+            5,
+            184,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 226
+        },
+        {
+          "index": 5,
+          "file": "E:\\Project\\03_\u6570\u5b57\u8d44\u4ea7\u5e93\\\u4e13\u5c5e\u5ba0\u7269\\Mochi_20260514_\u50cf\u7d20\u6a58\u732b\\frames\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 24632,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 180
+        }
+      ]
+    }
+  ]
+}
