@@ -1,8 +1,8 @@
 const agents = [
   ["01", "客户需求智能体", "解析客户原始需求，输出结构化立项书和岗位触发指令。", "最高", "agent/01-customer-requirements", "../01_智能体配置/01_客户需求智能体.md", "01_customer_requirements"],
-  ["02", "AI项目经理智能体", "统筹全链路任务、审查方向、识别风险和人工确认点。", "最高", "agent/02-ai-project-manager", "../01_智能体配置/02_AI项目经理智能体.md", "02_ai_project_manager"],
+  ["02", "AI项目经理智能体", "统筹全链路任务，审查方向，识别风险和人工确认点。", "最高", "agent/02-ai-project-manager", "../01_智能体配置/02_AI项目经理智能体.md", "02_ai_project_manager"],
   ["03", "Slot策划智能体", "输出 Slot 玩法、符号、特色功能、奖池和数值参考。", "最高", "agent/03-slot-planner", "../01_智能体配置/03_Slot策划智能体.md", "03_slot_planner"],
-  ["04", "文审机策划智能体", "负责多人竞技文审机玩法、生肖角色和平衡方案。", "高", "agent/04-wenshen-planner", "../01_智能体配置/04_文审机策划智能体.md", "04_wenshen_planner"],
+  ["04", "文审机策划智能体", "负责多人竞技文审机玩法、生肖角色和规则平衡方案。", "高", "agent/04-wenshen-planner", "../01_智能体配置/04_文审机策划智能体.md", "04_wenshen_planner"],
   ["05", "大厅策划智能体", "负责游戏总大厅入口逻辑、用户路径和功能策划。", "中", "agent/05-lobby-planner", "../01_智能体配置/05_大厅策划智能体.md", "05_lobby_planner"],
   ["06", "策划执行层智能体", "处理文档撰写、需求拆解、会议纪要和日报周报。", "最高", "agent/06-planning-executor", "../01_智能体配置/06_策划执行层智能体.md", "06_planning_executor"],
   ["07", "主美智能体", "负责视觉风格总控、质量审核和 GPT Image 提示词规范。", "高", "agent/07-art-director", "../01_智能体配置/07_主美智能体.md", "07_art_director"],
@@ -63,3 +63,68 @@ function trainingCard([index, name, description, branch, config, path]) {
 
 document.getElementById("agentGrid").innerHTML = agents.map(agentCard).join("");
 document.getElementById("trainingGrid").innerHTML = training.map(trainingCard).join("");
+
+const viewerTitle = document.getElementById("viewerTitle");
+const viewerContent = document.getElementById("viewerContent");
+const viewerOpenLink = document.getElementById("viewerOpenLink");
+const viewerVsCodeLink = document.getElementById("viewerVsCodeLink");
+const viewerLocalPath = document.getElementById("viewerLocalPath");
+let activeDocumentRequest = 0;
+
+const projectRoot = "H:\\AI智能体项目\\Project";
+
+function toLocalPath(url) {
+  const relativePath = decodeURIComponent(url.pathname)
+    .replace(/^\/+/, "")
+    .replace(/\//g, "\\");
+  return `${projectRoot}\\${relativePath}`;
+}
+
+function toVsCodeUrl(localPath) {
+  return `vscode://file/${localPath.replace(/\\/g, "/")}`;
+}
+
+async function openDocument(event) {
+  const link = event.target.closest("a[href$='.md']");
+  if (!link) {
+    return;
+  }
+
+  event.preventDefault();
+  const requestId = activeDocumentRequest + 1;
+  activeDocumentRequest = requestId;
+  const url = new URL(link.getAttribute("href"), window.location.href);
+  viewerTitle.textContent = link.textContent.trim();
+  viewerContent.textContent = "正在读取文件...";
+  viewerOpenLink.hidden = false;
+  viewerOpenLink.href = url.href;
+  const localPath = toLocalPath(url);
+  viewerLocalPath.hidden = false;
+  viewerLocalPath.textContent = localPath;
+  viewerVsCodeLink.hidden = false;
+  viewerVsCodeLink.href = toVsCodeUrl(localPath);
+
+  try {
+    const response = await fetch(url.href);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const buffer = await response.arrayBuffer();
+    const text = new TextDecoder("utf-8").decode(buffer);
+    if (requestId !== activeDocumentRequest) {
+      return;
+    }
+
+    viewerContent.textContent = text;
+    document.querySelector(".document-viewer").scrollIntoView({ behavior: "smooth", block: "start" });
+  } catch (error) {
+    if (requestId !== activeDocumentRequest) {
+      return;
+    }
+
+    viewerContent.textContent = `无法读取文件：${decodeURIComponent(url.pathname)}\n\n请确认本地服务器从 Project 根目录启动。\n错误信息：${error.message}`;
+  }
+}
+
+document.addEventListener("click", openDocument);

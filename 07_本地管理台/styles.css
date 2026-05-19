@@ -101,7 +101,8 @@ main {
 
 .control-band,
 .grid-shell,
-.workflow {
+.workflow,
+.document-viewer {
   border: 1px solid var(--ink);
   background: rgba(255, 253, 247, 0.9);
   box-shadow: var(--shadow);
@@ -149,10 +150,63 @@ main {
   color: white;
 }
 
+.document-viewer,
 .grid-shell,
 .workflow {
   margin-top: 24px;
   padding: 22px;
+}
+
+.viewer-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.viewer-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+#viewerOpenLink,
+#viewerVsCodeLink {
+  min-height: 34px;
+  padding: 8px 12px;
+  border: 1px solid var(--ink);
+  background: #f0e6d2;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.viewer-path {
+  margin: -4px 0 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  background: #fffaf0;
+  color: var(--accent-strong);
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+#viewerContent {
+  max-height: 520px;
+  margin: 0;
+  padding: 16px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  background: #fffaf0;
+  color: var(--ink);
+  font-family: Consolas, "Microsoft YaHei", "Noto Sans CJK SC", monospace;
+  font-size: 13px;
+  line-height: 1.68;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 .section-heading {
@@ -234,6 +288,7 @@ main {
   color: var(--muted);
   line-height: 1.64;
   font-size: 13px;
+  overflow-wrap: anywhere;
 }
 
 .path {
